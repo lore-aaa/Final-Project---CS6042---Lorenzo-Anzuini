@@ -4,6 +4,14 @@ This is my final project for the CS6042 module
 
 I used Pure Data to make a granular sampler, that can be controlled with three potentiometers. The potentiometers are connected to Pure Data though an Arduino Uno board. The Pure Data patch is also connected to Processing, that generates visuals that get affected by what is happening sonically. Finally, I built a case for the pots, the Arduino and the Breadboard, using the Laser Cutter and the 3D printer.
 
+Instructions:
+ - Upload the SandardFirmata example from the firmata library on the Arduino Board
+ - Click on the Startup bang in the Pure Data patch, and depending on what you see printed in the pd log, set the arduino object (inside the arduinoStuff subpatch) to the correct argument, correpsponding to the port that the Arduino is connected to
+ - Click on the bang again to start the connection (you might need to save the correct argument, quit PD and reopen it)
+ - Once you are getting data from the arduino, run the Processing sketch
+ - Click on the Connect bang
+ - Enjoy
+
 In order for this to work you need:
 
 PD:
@@ -18,5 +26,8 @@ Arduino:
 - a 5.5x8.5cm (or smaller) breadboard/prototype board (for the same reason.
 
 Digital Fabrication:
-- install the Muli-Regular font (included in the Digital Fabrication folder)
+- the Muli-Regular font (included in the Digital Fabrication folder) installed
 - if you want to print using an Ultimaker2 you can use the .gcode file, otherwise prepare the print for your own printer using the .stl file
+
+Processing:
+- the Network library, downlodable in processing from Sketch > Import Library > Add Library
