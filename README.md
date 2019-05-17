@@ -14,3 +14,9 @@ Arduino:
 - the Firmata Library https://github.com/firmata/arduino/blob/master/examples/StandardFirmata/StandardFirmata.ino
 - the StandardFirmata exapmle from the library uploaded to your board
 - three 10k pots connected to the board following the schematics in the Arduino folder of this repository
+- an Arduino Uno board or smaller (otherwise it won't fit in the enclosure)
+- a 5.5x8.5cm (or smaller) breadboard/prototype board (for the same reason.
+
+Digital Fabrication:
+- install the Muli-Regular font (included in the Digital Fabrication folder)
+- if you want to print using an Ultimaker2 you can use the .gcose file of the 3D print object, otherwise prepare te print for your own     printer using the .stl file
