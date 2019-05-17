@@ -19,4 +19,4 @@ Arduino:
 
 Digital Fabrication:
 - install the Muli-Regular font (included in the Digital Fabrication folder)
-- if you want to print using an Ultimaker2 you can use the .gcose file of the 3D print object, otherwise prepare te print for your own     printer using the .stl file
+- if you want to print using an Ultimaker2 you can use the .gcode file, otherwise prepare te print for your own     printer using the .stl file
