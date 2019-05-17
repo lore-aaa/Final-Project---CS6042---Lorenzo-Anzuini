@@ -1,0 +1,8 @@
+#N canvas 0 23 450 300 10;
+#X obj 104 104 tgl 30 0 empty empty empty 17 7 0 10 -262144 -1 -1 0
+1;
+#X msg 104 166 \; pd dsp \$1;
+#X text 139 100 dsp;
+#X text 138 119 on/off;
+#X connect 0 0 1 0;
+#X coords 0 -1 1 1 85 38 2 100 100;
